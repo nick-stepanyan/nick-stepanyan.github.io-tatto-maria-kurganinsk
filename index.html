@@ -12,14 +12,19 @@
 
 <body>
 
-    <div id="video-bg">
-        <video width="100%" height="100%" preload="auto" autoplay="autoplay" loop="loop"> 
-           <source src="images//Tattoo_making_video.mp4" type="video/mp4"></source>
-        </video>
-    </div>
+
+
+
+
     <header class="header">
 
         <div class="container">
+            <!-- The video -->
+            <video autoplay muted loop id="myVideo">
+                 <source src="images//Tattoo_making_video.mp4" type="video/mp4">
+            </video>
+
+
 
             <div class="header__menu">
 
@@ -55,7 +60,7 @@
 
             </div>
             <div class="header__title">
-                <div class="header__title-text">
+                <div class="header__title-text wow animate__zoomIn" data-wow-duration="5s" data-wow-delay="2s">
                     Tatto <br>
                     <span>Курганинск</span>
                 </div>
@@ -209,11 +214,12 @@
                         <div class="footer__social-icon social-icon-adaptation">
                             <a href="https://vk.com/mashkotattoo " target="_blank " title="Я в VK " rel="noopener noreferrer "><i class="fa fa-vk  "  aria-hidden="true "></i></a>
                             <a href="https://www.instagram.com/barracuda_tattoo_kurganinsk/ " target="_blank " title="Мой Instagram " rel="noopener noreferrer "><i class="fa fa-instagram " aria-hidden="true "></i></a>
-                            <a href="https://wa.me/79528128128?text=Здравствуйте. " target="_blank " title="Написать мне в Whatsapp " rel="noopener noreferrer "> <i class="fa fa-whatsapp" aria-hidden="true "></i></a>
+                            <a href="https://wa.me/79183560337?text=Здесь будет заранее заготовленный текст, какой ты скажешь, например - Хай 'Машкота'! Я хочу татуху у тебя! - И человек сразу же попадает в воцап к тебе с этим заготовленным текстом, он может его удалить или дополнить, но все это выглядит очень прикольно."
+                                target="_blank " title="Написать мне в Whatsapp " rel="noopener noreferrer "> <i class="fa fa-whatsapp" aria-hidden="true "></i></a>
                         </div>
                         <div class="email wow animate__fadeInUp" data-wow-duration="2s" data-wow-offset="50">
 
-                            <a class="e-mail " id="email" title="Копировать">hello@yoursite.com</a>
+                            <a class="e-mail " id="hello@yoursite.com" title="Копировать">hello@yoursite.com</a>
                         </div>
                     </div>
 
